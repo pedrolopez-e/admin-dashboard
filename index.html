@@ -11,14 +11,25 @@
     <div class="container">
         <header class="container-grid-item"></header>
         <main class="container-grid-item"></main>
-        <div class="sidebar container-grid-item"></div>
+        <div class="sidebar container-grid-item">
+            <h1><img src="images/view-dashboard.svg" id="logo">Dashboard</h1>
+            <div class="home button"><img src="images/home.svg">Home</div>
+            <div class="profile button"><img src="images/face-man-profile.svg">Profile</div>
+            <div class="messages button"><img src="images/message-settings.svg">Messages</div>
+            <div class="history button"><img src="images/clipboard-text-clock.svg">History</div>
+            <div class="tasks button"><img src="images/calendar-check.svg">Tasks</div>
+            <div class="community button"><img src="images/google-circles-communities.svg">Community</div>
+            <div class="settings button"><img src="images/cog.svg">Settings</div>
+            <div class="support button"><img src="images/lifebuoy.svg">Support</div>
+            <div class="privacy button"><img src="images/shield-sun.svg">Privacy</div>
+        </div>
     </div>
 </body>
 </html>
 
-<!--Overall grid is 2x2
-    The sidebar spans through the two rows and only the first column
-    The second row has a min size of 1fr and not a clear max size, it occupies the whole height
+<!--* Overall grid is 2x2
+    * The sidebar spans through the two rows and only the first column
+    * The second row has a min size of 1fr and not a clear max size, it occupies the whole height
     Use flexbox for sidebar
     Create two divs for the header and use flexbox in each of them
     Main has another grid with 2 columns and the first column has another grid with auto-fit for the cards and the second one a flex display for its content-->
